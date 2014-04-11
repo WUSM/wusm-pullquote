@@ -1,0 +1,30 @@
+/* Pullquote. */
+.pullquote {
+	border-top   : 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	color        : #516468;
+	font-size    : 24px;
+	line-height  : 30px;
+	margin       : 20px 0;
+	padding      : 50px;
+	text-align   : center;
+	width        : 600px;
+}
+
+.pullquote-author,
+.pullquote-credit {
+	font-size   : 12px;
+	line-height : 12px;
+	display     : block;
+}
+
+.pullquote-author {
+	font-weight   : bold;
+	text-transform: uppercase;
+	padding-top   : 32px;
+	padding-bottom: 12px; 
+}
+
+.pullquote-credit {
+	
+}
