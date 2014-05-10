@@ -4,7 +4,7 @@ Plugin Name: WUSM Pullquotes
 Plugin URI: 
 Description: Add pullquotes to WUSM sites
 Author: Aaron Graham
-Version: 14.02.18.0
+Version:14.05.10.0
 Author URI: 
 */
 
@@ -22,10 +22,10 @@ function github_plugin_updater_wusm_pullquote_init() {
 				$config = array(
 						'slug' => plugin_basename( __FILE__ ),
 						'proper_folder_name' => 'wusm-pullquote',
-						'api_url' => 'https://api.github.com/repos/coderaaron/wusm-pullquote',
-						'raw_url' => 'https://raw.github.com/coderaaron/wusm-pullquote/master',
-						'github_url' => 'https://github.com/coderaaron/wusm-pullquote',
-						'zip_url' => 'https://github.com/coderaaron/wusm-pullquote/archive/master.zip',
+						'api_url' => 'https://api.github.com/repos/wusm/wusm-pullquote',
+						'raw_url' => 'https://raw.github.com/wusm/wusm-pullquote/master',
+						'github_url' => 'https://github.com/wusm/wusm-pullquote',
+						'zip_url' => 'https://github.com/wusm/wusm-pullquote/archive/master.zip',
 						'sslverify' => true,
 						'requires' => '3.0',
 						'tested' => '3.8',
